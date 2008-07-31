@@ -1,6 +1,10 @@
-2008-07-28  Lluis Sanchez Gual <lluis@novell.com> 
+2008-07-31  Lluis Sanchez Gual <lluis@novell.com> 
 
-	* NRefactoryEvaluator.cs: Track changes in NRefactory.
+	* DebuggerServer.cs: Enable support for conditional breakpoints.
+	* Convert.cs: Allow fundamental conversions of strings. Use new boxing
+	  API.
+	* ObjectUtil.cs: Some cleanup.
+	* ArrayElementGroup.cs: Report exception when setting a value.
 
 2008-07-25  Lluis Sanchez Gual <lluis@novell.com> 
 
